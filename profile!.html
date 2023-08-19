@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: blueviolet;
+          
+        }
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    list-style: none;
+   
+color: aliceblue;
+}
+h3{
+    margin-right: 100px;
+}
+input{
+    border-style: none;
+    border: 1px solid rgb(217, 49, 223);
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    background: transparent;
+    box-shadow: 0px 2px 2px rgb(217, 49, 223);
+    
+   
+}
+input:active{
+    border-style: none;
+    box-shadow: 0px 3px 6px blueviolet;
+}
+
+button{
+    padding: 10px;
+    font-size: medium;
+    border-style: none;
+    background-color:blueviolet ;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+::placeholder{
+    font-size: medium;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+}
+h3{
+
+    margin-top: 30px;
+   cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+h2{
+    margin-top: 30px;
+
+}
+
+    </style>
+</head>
+<body>
+    <header>
+         <ul>
+            <li> <h2><a href="./index.html">Back</a> </h2></li>
+            <li> <h1>Personal Blog App</h1></li>
+            <li><h3 onclick="">  LOG Out</h3></li>
+    </ul>
+</header>
+<div> <h1>Profile</h1></div>
+<div class="main">
+
+<div class="form">
+    <div><img src="./arey-padhai-karlo-thoda-1024x576.webp" alt=""></div>
+    <h2>Name</h2>
+<input type="password" placeholder="Old Password">
+<br>
+<input type="password" placeholder="New Password">
+<br><input type="password" placeholder="Repeat Password">
+<br>
+<button>Update Password</button>  
+
+</div>
+
+</div>
+
+
+</body>
+</html>
